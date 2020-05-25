@@ -182,8 +182,8 @@ body{
 /*-----Servicios-----*/
 .servicios{
     width: 100%;
-    height: 1300px;
-    
+    height: 1800px;
+    /*max-height: 1650px;*/
     background-image: url(img/Fondo4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -259,15 +259,15 @@ body{
     font-family: 'Montserrat';
 }
 .contacto1 i{
-    font-size: 90px;
+    font-size: 85px;
     padding-right: 10px;
 }
 #cont{
-    font-size: 90px;
+    font-size: 85px;
     font-weight: 700;
 }
 #us{
-    font-size: 90px;
+    font-size: 85px;
     font-weight: 200;
 }
 .contacto2{
@@ -415,7 +415,10 @@ body{
         width: 350px;
         margin: 40px auto;
     }
-
+    .welcomelist ul{
+        margin-left: 50px;
+        padding-left: 50px;
+    }
     .welcomelist p{
         font-size: 15px;
     }
@@ -423,7 +426,10 @@ body{
         margin-left: 1%;
     }
     /*---Servicios---*/
-
+    .servicios{
+        height: 1350px;
+    }
+    
     .sercard img{
         width: 180px;
         margin: 0 11px;
@@ -514,12 +520,14 @@ body{
     }
     /*---Servicios---*/
     .servicios{
-        height: 1800px;
+        height: 1650px;
     }
     .sercard p{
         display: none;
     }
-
+    .presentacion h2{
+        width: 100%;
+    }
     /*--Contactos---*/
     .contacizquierda,.contactderecha{
         float: none;
@@ -529,5 +537,26 @@ body{
     }
     .contacto1 , .contacto3{
         display: flex;
+    }
+    .contacizquierda{
+        padding-left: 50px;
+    }
+    .formulario{
+        width: 180%;
+        padding: 0 40%;
+    }
+    .contacto1 #cont , #us{
+        font-size: 40px;
+    }
+    .contacto1 i{
+        font-size: 40px;
+    }
+    .contacto3{
+        padding-top: 10px;
+        padding-bottom: 20px;
+        font-size: 15px;
+    }
+    .contactoab{
+        margin-top: 30px;
     }
 }
